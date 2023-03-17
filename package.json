@@ -4,7 +4,6 @@
   "description": "A multi-purpose landing page that will be used as a portfolio",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run src:build",
     "deploy": "gh-pages -d src"
   },
   "repository": {
