@@ -4,7 +4,7 @@
   "description": "A multi-purpose landing page that will be used as a portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
     "node-fetch": "^3.3.1",
     "xmlhttprequest": "^1.8.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
